@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="10dp"
+    app:cardUseCompatPadding="true"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewtitulo"
+
+
+
+            android:layout_width="319dp"
+            android:layout_height="57dp"
+
+
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+
+
+            app:cardBackgroundColor="#347C73"
+            app:cardCornerRadius="5dp">
+            <TextView
+
+                android:id="@+id/nombreText"
+                android:layout_width="254dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="nombre del aviso"
+                android:textColor="#FBFBFB"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nombreText"
+                android:src="@drawable/mapache">
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView_2"
+            android:layout_width="262dp"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/cardViewtitulo"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginBottom="10dp"
+            app:cardBackgroundColor="#92D8D1"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="1dp"
+
+
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:src="@drawable/i_comunidad"></ImageView>
+
+            <TextView
+
+                android:id="@+id/nombreDepartamento"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="nombre del departamento"
+                android:textColor="#FBFBFB"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+
+            android:layout_below="@+id/cardView_2"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/baseline_calendar_month_24"/>
+
+            <TextView
+                android:id="@+id/fechainicio"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="fecha"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/baseline_calendar_month_24"/>
+
+            <TextView
+                android:id="@+id/fechafin"
+                android:layout_width="107dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="fecha"
+                android:textColor="#000"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="354dp"
+            android:layout_height="207dp"
+            android:layout_below="@+id/layout1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="0dp"
+            android:foregroundGravity="center"
+            android:src="@drawable/mapache" />
+
+        <TextView
+            android:id="@+id/descipcion_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img1"
+            android:layout_marginLeft="10dp"
+            android:gravity="start"
+            android:text="Descricion"
+            android:textAlignment="textStart"
+            android:textColor="#000"
+            android:textSize="17sp" />
+
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

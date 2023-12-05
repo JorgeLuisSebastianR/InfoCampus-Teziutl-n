@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1096775884583",
+    "firebase_url": "https://aviso-93f61-default-rtdb.firebaseio.com",
+    "project_id": "aviso-93f61",
+    "storage_bucket": "aviso-93f61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096775884583:android:9190975094db277a065302",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATyxVIkM3i_VmK10-IOvXTr5oyePMjpHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

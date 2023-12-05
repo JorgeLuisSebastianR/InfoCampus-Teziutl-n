@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/admin_inicio">
+    <fragment
+        android:id="@+id/admin_inicio"
+        android:name="com.example.myapplication.Panel_Admin_F_01_home"
+        tools:layout="@layout/fragment_panel_admin_01_home" />
+    <fragment
+        android:id="@+id/admin_Crear"
+        android:name="com.example.myapplication.Panel_Admin_F_02_Crear_User"
+        tools:layout="@layout/fragment_panel_admin_02_crear_user" />
+    <fragment
+        android:id="@+id/admin_Ver"
+        android:name="com.example.myapplication.Panel_Admin_F_03_Ver"
+        tools:layout="@layout/fragment_panel_admin_03_ver" />
+    <fragment
+        android:id="@+id/admin_ajustes"
+        android:name="com.example.myapplication.Panel_Admin_F_04_Ajustes"
+        tools:layout="@layout/fragment_panel_admin_04_ajustes" />
+</navigation>

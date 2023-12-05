@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/departemto_inicio">
+
+    <fragment
+        android:id="@+id/departemto_inicio"
+        android:name="com.example.myapplication.Panel_Departamento_F_01_home"
+        tools:layout="@layout/fragment_panel_departamento_01_home"
+        />
+    <fragment
+        android:id="@+id/departemto_Crear"
+        android:name="com.example.myapplication.Panel_Departamento_F_02_Crear"
+        tools:layout="@layout/fragment_panel_departamento_02_crear"
+        />
+    <fragment
+        android:id="@+id/departemto_Ver"
+        android:name="com.example.myapplication.Panel_Departamento_F_03_Ver"
+        tools:layout="@layout/fragment_panel_departamento_03_ver"
+        />
+    <fragment
+        android:id="@+id/departemto_comunidad"
+        android:name="com.example.myapplication.Panel_Departamento_F_04_Comunidad"
+        tools:layout="@layout/fragment_panel_departamento_04_comunidad"
+        />
+    <fragment
+        android:id="@+id/departemto_ajustes"
+        android:name="com.example.myapplication.Panel_Departamento_F_05_ajustes"
+        tools:layout="@layout/fragment_panel_departamento_05_ajustes" />
+
+
+</navigation>

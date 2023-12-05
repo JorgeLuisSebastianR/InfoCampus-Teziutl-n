@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/alumno_inicio">
+    <fragment
+        android:id="@+id/alumno_inicio"
+        android:name="com.example.myapplication.Panel_Alumno_F_01_home"
+        tools:layout="@layout/fragment_panel_alumno_01_home" />
+    <fragment
+        android:id="@+id/alumno_Ver"
+        android:name="com.example.myapplication.Panel_Alumno_F_02_ver"
+        tools:layout="@layout/fragment_panel_alumno_02_ver" />
+    <fragment
+        android:id="@+id/alumno_ajustes"
+        android:name="com.example.myapplication.Panel_Alumno_F_03_ajustes"
+        tools:layout="@layout/fragment_panel_alumno_03_ajustes" />
+</navigation>

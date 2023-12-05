@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/alumno_inicio"
+        android:icon="@drawable/inicio"
+        android:title="Inicio"/>
+    <item
+        android:id="@+id/alumno_Ver"
+        android:icon="@drawable/ver"
+        android:title="Avisos"/>
+    <item
+        android:id="@+id/alumno_ajustes"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="Ajustes"/>
+
+</menu>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/departemto_inicio"
+        android:icon="@drawable/inicio"
+        android:title="Inicio"/>
+    <item
+        android:id="@+id/departemto_Crear"
+        android:icon="@drawable/i_crear"
+        android:title="Aviso"/>
+    <item
+        android:id="@+id/departemto_Ver"
+        android:icon="@drawable/ver"
+        android:title="Ver"/>
+
+    <item
+        android:id="@+id/departemto_ajustes"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="Ajustes"/>
+
+</menu>

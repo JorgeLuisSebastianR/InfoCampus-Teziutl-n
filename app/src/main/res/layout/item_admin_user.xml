@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="10dp"
+    app:cardUseCompatPadding="true"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewtitulo"
+            android:layout_width="319dp"
+            android:layout_height="57dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            app:cardBackgroundColor="#244340"
+            app:cardCornerRadius="20dp">
+
+            <TextView
+                android:id="@+id/nombre_Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="nombre de User"
+                android:textColor="#FBFBFB"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/label_correo"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardViewtitulo"
+            android:layout_marginLeft="10dp"
+            android:gravity="start"
+            android:text="Correo: "
+            android:textColor="#000"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/Correo_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardViewtitulo"
+            android:layout_toEndOf="@id/label_correo"
+            android:layout_marginStart="10dp"
+            android:gravity="start"
+            android:text="correo"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/label_tipo_usuario"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Correo_text"
+            android:layout_marginLeft="10dp"
+            android:gravity="start"
+            android:text="Tipo de usuario:"
+            android:textColor="#000"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/tipoUser_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Correo_text"
+            android:layout_toEndOf="@id/label_tipo_usuario"
+            android:layout_marginStart="10dp"
+            android:gravity="start"
+            android:text="Tipo de usuario"
+            android:textAlignment="textStart"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/label_password"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tipoUser_text"
+            android:layout_marginLeft="10dp"
+            android:gravity="start"
+            android:text="Contraseña: "
+            android:textColor="#000"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/Pass_User_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tipoUser_text"
+            android:layout_toEndOf="@id/label_password"
+            android:layout_marginStart="10dp"
+            android:gravity="start"
+            android:text="password"
+            android:textAlignment="textStart"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+
+        <LinearLayout
+            android:layout_below="@+id/Pass_User_text"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_editar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Editar" />
+
+            <Button
+                android:id="@+id/btn_eliminar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Eliminar" />
+            <Button
+                android:id="@+id/btn_ver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ver" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
